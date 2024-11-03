@@ -17,6 +17,7 @@
         line-height: 1.6;
         margin: 0;
         padding: 20px;
+        padding-bottom: 60px; /* メニューバーの高さに応じて調整 */
     }
     .container {
         max-width: 800px;
@@ -29,7 +30,7 @@
     h1 {
         color: #ff69b4;
         text-align: center;
-        font-size: 2.5em;
+        font-size: 1.5em; /* 更新: 文字サイズ調整 */
         margin-bottom: 20px;
     }
     .subheading {
@@ -119,8 +120,12 @@
     .menu-bar {
         background-color: #ff69b4;
         padding: 10px 0;
-        margin-top: 20px;
         text-align: center;
+        position: fixed; /* 更新: 画面下部に固定 */
+        bottom: 0; /* 更新: 画面下部に固定 */
+        left: 0; /* 更新: 画面下部に固定 */
+        right: 0; /* 更新: 画面下部に固定 */
+        z-index: 1000; /* 更新: 画面下部に固定 */
     }
     .menu-bar a {
         color: white;
