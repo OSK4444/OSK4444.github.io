@@ -16,21 +16,21 @@
         color: #333;
         line-height: 1.6;
         margin: 0;
-        padding: 20px;
-        padding-bottom: 60px; /* メニューバーの高さに応じて調整 */
+        padding: 10px;
+        padding-bottom: 60px;
     }
     .container {
-        max-width: 800px;
+        max-width: 95%;
         margin: 0 auto;
         background-color: #fff;
         border-radius: 15px;
         box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        padding: 30px;
+        padding: 20px;
     }
     h1 {
         color: #ff69b4;
         text-align: center;
-        font-size: 1.5em; /* 更新: 文字サイズ調整 */
+        font-size: 1.5em;
         margin-bottom: 20px;
     }
     .subheading {
@@ -121,11 +121,11 @@
         background-color: #ff69b4;
         padding: 10px 0;
         text-align: center;
-        position: fixed; /* 更新: 画面下部に固定 */
-        bottom: 0; /* 更新: 画面下部に固定 */
-        left: 0; /* 更新: 画面下部に固定 */
-        right: 0; /* 更新: 画面下部に固定 */
-        z-index: 1000; /* 更新: 画面下部に固定 */
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
     }
     .menu-bar a {
         color: white;
@@ -135,6 +135,30 @@
     }
     .menu-bar a:hover {
         text-decoration: underline;
+    }
+    .job-details {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 20px 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .job-detail-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        gap: 15px;
+    }
+    .job-detail-label {
+        width: 100px;
+        color: #666;
+        font-size: 0.9em;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .job-detail-content {
+        flex: 1;
+        line-height: 1.6;
     }
 </style>
 </head>
@@ -147,11 +171,11 @@
     <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rec_01_1215-HdttyUs6BHki2BoMCAcx21k6k1lYTy.webp" alt="一宮メンズエステ求人スリール 美容サロンの求人情報" class="job-image">
 
     <div class="menu-bar">
-    <a href="https://osk4444.github.io/">TOP</a>
-    <a href="https://line.me/ti/p/2uhqWzaHj6">応募</a>
-    <a href="#access">アクセス</a>
-    <a href="#benefits">待遇</a>
-</div>
+        <a href="https://osk4444.github.io/">TOP</a>
+        <a href="https://line.me/ti/p/2uhqWzaHj6">応募</a>
+        <a href="#access">アクセス</a>
+        <a href="#benefits">待遇</a>
+    </div>
 
     <a href="https://line.me/ti/p/2uhqWzaHj6" class="cta-button" style="margin-top: 20px;" target="_blank" rel="noopener noreferrer">LINEで予約・問い合わせ 💬</a>
 
@@ -159,6 +183,57 @@
         <h2>💖 あなたの夢、応援します！ 💖</h2>
         <p>一宮市で人気のメンズエステ スリールです。素敵な笑顔とキラキラした未来を一緒に作りませんか？ ✨</p>
         <p>私たちのサロンは、お客様の美しさを引き出すお手伝いをする素敵な仲間を募集中です！ 👯‍♀️</p>
+    </div>
+
+    <div class="job-details">
+        <div class="job-detail-item">
+            <div class="job-detail-label">応募資格</div>
+            <div class="job-detail-content">
+                18歳～38歳くらいまで
+            </div>
+        </div>
+        
+        <div class="job-detail-item">
+            <div class="job-detail-label">勤務地</div>
+            <div class="job-detail-content">
+                一宮市平和町など
+            </div>
+        </div>
+        
+        <div class="job-detail-item">
+            <div class="job-detail-label">勤務時間</div>
+            <div class="job-detail-content">
+                12:00～3:00の営業時間内で、お好きな時間帯で働いていただけます。
+            </div>
+        </div>
+        
+        <div class="job-detail-item">
+            <div class="job-detail-label">勤務日</div>
+            <div class="job-detail-content">
+                【完全自由出勤制】
+            </div>
+        </div>
+        
+        <div class="job-detail-item">
+            <div class="job-detail-label">営業時間</div>
+            <div class="job-detail-content">
+                12:00 ～ 3:00
+            </div>
+        </div>
+        
+        <div class="job-detail-item">
+            <div class="job-detail-label">交通</div>
+            <div class="job-detail-content">
+                尾張一宮駅・名鉄一宮駅
+            </div>
+        </div>
+        
+        <div class="job-detail-item">
+            <div class="job-detail-label">所在地</div>
+            <div class="job-detail-content">
+                愛知県一宮市平和町
+            </div>
+        </div>
     </div>
 
     <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/S__46506040-06ODYlScUkQ1rMETmi7hySrnKFX3ho.jpg" alt="一宮メンズエステ求人スリール - 風俗行為が一切ない安全なお仕事です" class="job-image">
@@ -207,7 +282,7 @@
     </div>
 
     <div class="highlight">
-        <p class="emoji-title">「毎日がキラキラ✨ 一緒に輝く仲間になりませんか？」</p>
+        <p class="emoji-title">「毎日がキラキラ✨  一緒に輝く仲間になりませんか？」</p>
         <p>素敵な出会いを楽しみにしています！ 💌 ご応募お待ちしております 💌</p>
     </div>
 
